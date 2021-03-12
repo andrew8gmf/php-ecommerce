@@ -1,6 +1,6 @@
 <?php
 session_start();
-include('connection.php');
+include $_SERVER['DOCUMENT_ROOT']."/config/connection.php";
 
 $register_url = 'http://' . $_SERVER['HTTP_HOST'] . '/register';
 
